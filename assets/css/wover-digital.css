@@ -1,0 +1,47 @@
+.top-menu {background: #F5F5F5; min-height: 35px;}
+.header-sosyal {
+    margin-right: 20px;
+    float: left
+}
+.header-sosyal li {
+    float: left;
+    border: 1px solid #babec1;
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+    border-radius: 12px;
+    margin-right: 10px
+}
+.header-sosyal li:last-child {
+    margin-right: 0
+}
+
+.header-sosyal li.takip {
+    float: left;
+    border: none;
+    width: 90px;
+    border-radius: 12px;
+    margin-right: 10px;
+    line-height: 26px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+
+.header-sosyal li a {
+    display: block;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px
+}
+
+.header-sosyal li a:hover {
+text-decoration: none;
+}
+
+
+.header-sosyal li i:before {
+    color: #13232d;
+    font-size: 11px
+}
